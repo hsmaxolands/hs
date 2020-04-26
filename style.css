@@ -15,6 +15,12 @@ a{
     color: black;
 }
 
+#pravidla{
+    width: 600px;
+    float: right;
+    background-color: white;
+}
+
 #ateam{
     padding-bottom: 20px;
     width: 600px;
