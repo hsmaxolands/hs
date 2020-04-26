@@ -21,6 +21,20 @@ a{
     background-color: white;
 }
 
+#boss{
+    list-style-type: none;
+    width: 600px;
+    float: right;
+    background-color: white;
+}
+
+#crates{
+    list-style-type: none;
+    width: 600px;
+    float: right;
+    background-color: white;
+}
+
 #ateam{
     padding-bottom: 20px;
     width: 600px;
