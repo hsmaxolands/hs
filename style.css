@@ -36,6 +36,7 @@ a{
 }
 
 #ateam{
+    list-style-type: none;
     padding-bottom: 20px;
     width: 600px;
     float: right;
