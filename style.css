@@ -1,105 +1,191 @@
-html{
-    background-color: #EEE;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
-
-body{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+.bosslandcontainer{
+    background-color: #737686;
 }
-
-a{
-    text-decoration: none;
-    color: black;
+.bosslandtext{
+    padding: 20px;
+    text-align: left;
+    height: 50%;
+    width: 50%;
 }
-
-#pravidla{
-    width: 600px;
-    float: right;
-    background-color: white;
+.bosslandbanner{
+    background-color: #737686;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
 }
-
-#boss{
-    list-style-type: none;
-    width: 600px;
-    float: right;
-    background-color: white;
+.ateamcontainer{
+    width: 100%;
+    height: 150%;
+    background: #737686;
 }
-
-#crates{
-    list-style-type: none;
-    width: 600px;
-    float: right;
-    background-color: white;
-}
-
-#ateam{
-    list-style-type: none;
-    padding-bottom: 20px;
-    width: 600px;
-    float: right;
-    background-color: white;
-}
-
-#join{
-    width: 600px;
-    float: right;
-    background-color: white;
-}
-
-#screentext{
-    padding-left: 175px;
-    padding-bottom: 0px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#screen{
-    padding-left: 175px;
-    padding-top: 0px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#header{
-    background-color: #66CCFF;
+.ateam{
     color: white;
     text-align: center;
 }
-
-#content{
-    padding: 10px;
-    background-color: white;
+.pravidlacontainer{
+    background-color: #737686;
 }
-
-#nav{
-    width: 180px;
-    float: left;
-    background-color: white;
+.pravidlatext{
+    padding: 20px;
+    text-align: left;
+    height: 50%;
+    width: 50%;
 }
-
-#nav ul{
-    list-style-type: none;
-    padding: 0;
+.pravidlabanner{
+    background-color: #737686;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
 }
-
-#nav .selected{
-    font-weight: bold;
-}
-
-#main{
-    width: 600px;
-    float: right;
-    background-color: white;
-}
-#footer{
-    clear: both;
+.footer{
     padding: 10px;
     background-color: #999999;
     color: white;
     text-align: right;
+}
+.ateamtext{
+    margin: 20px;
+}
+.Vedení #max{
+    margin-left: -1000px;
+    margin-top: 50px;
+}
+.Vedení #fanda{
+    margin-left: 0;
+    margin-top: -84px;
+}
+.Vedení #frelix{
+    margin-left: 1000px;
+    margin-top: -82px;
+}
+.Developer{
+    margin-top: 5%;
+}
+.Developer #lukyboy{
+    margin-top: 50px;
+}
+.Moderator #PTTTV{
+    margin-left: -1000px;
+    margin-top: 50px;
+}
+.Moderator #siwi{
+    margin-left: -250px;
+    margin-top: -82px;
+}
+.Moderator #mustafa{
+    margin-left: 250px;
+    margin-top: -80px;
+}
+.Moderator #king{
+    margin-left: 1000px;
+    margin-top: -80px;
+}
+.Moderator{
+    margin-top: 5%;
+}
+.Helper{
+    margin-top: 5%;
+}
+.Helper #petoos{
+    margin-left: -1000px;
+    margin-top: 50px;
+}
+.Helper #predrazenyjogurt{
+    margin-left: 0;
+    margin-top: -82px;
+}
+.Helper #rateddd{
+    margin-left: 1000px;
+    margin-top: -82px;
+}
+.ChatHunter{
+    margin-top: 5%;
+}
+.ChatHunter{
+    margin-top: 50px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url("max hs.png");
+}
+.menu{
+    background: #42455a;
+}
+a{
+    color: #b2b1b1;
+    text-decoration: none;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 20px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.active{
+    color: #19dafa !important;
+}
+.banner{
+    width: 30%;
+    height: 20%;
+    color: rgb(71, 70, 70);
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.joinbtn
+{
+ margin-left: 30px;
+ margin-top: 400px;
+}
+.btn
+{
+ border: 1px solid #3498db;
+ background: none;
+ padding: 10px 20px;
+ font-size: 20px;
+ font-family: "montserrat";
+ cursor: pointer;
+ margin: 10px;
+ transition: 0.8s;
+ position: relative;
+}
+.btn1{
+ color: #3498db;
+}
+.btn1:hover{
+ color: black;
+ background: #19dafa;
+}
+
+.btn::before{
+ content: "";
+ position: absolute;
+ left: 0;
+ width: 100%;
+ height: 0%;
+ background: #3645cc;
+ z-index: -1;
+ transition: 0.8;
+}
+.btn1:before{
+top: 0;
+border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before{
+height: 0%;
 }
