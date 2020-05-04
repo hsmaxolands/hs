@@ -27,6 +27,8 @@
 .ateam{
     color: white;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 .pravidlacontainer{
     background-color: #737686;
